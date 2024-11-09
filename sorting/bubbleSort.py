@@ -5,6 +5,7 @@ class Bubblesort:
       self.n=len(arr)
       flag=False  # to check swapping is necessary or not or already list is swaped 
       self.count=0
+      self .t="just check"  # without self.t u can't acess the  class  variable outside the function
     
       for i  in range (0,self.n):
         for j in range (0,self.n-1-i):
@@ -32,3 +33,5 @@ sort.bubble(arr)
 
 print(arr)
 print(sort.count)  # object k through acces kar sakta h fn ko 4
+
+print(sort.t)
