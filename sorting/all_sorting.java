@@ -1,3 +1,5 @@
+package repss.sorting;
+
 public class all_sorting {
     public static void swap(int[] arr, int index1, int index2) {
         int temp = arr[index1];
