@@ -26,5 +26,3 @@ sort= SelectionSort()
 sort.selection(arr)
 print(arr)
 
-
-
